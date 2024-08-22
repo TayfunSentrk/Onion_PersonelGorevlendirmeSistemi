@@ -8,5 +8,7 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
 {
     public class Priority
     {
+        public int Id { get; set; }
+        public string Definition { get; set; } = null!;//Açıklama boş geçilemez
     }
 }
