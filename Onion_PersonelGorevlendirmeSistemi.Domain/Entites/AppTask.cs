@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
 {
-    internal class AppTask
+    public class AppTask
     {
+        public int Id { get; set; }
+        public string Title { get; set; } = null!; //boş geçilmemesi sağlandı
+
+        public string? Description { get; set; } //boş geçilebilir
+
+        public int AppUserId { get; set; }
+        public int PriorityId { get; set; }
+        public bool State { get; set; }
     }
 }
