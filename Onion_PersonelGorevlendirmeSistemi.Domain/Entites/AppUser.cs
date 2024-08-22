@@ -8,5 +8,13 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
 {
     public class AppUser
     {
+        public int Id { get; set; }
+        public string UserName { get; set; } = null!; //UserName boş geçilmemesi sağlandı
+
+        public string Password { get; set; } = null!;//Şifre boş geçilmemesi sağlandı
+        public string Name { get; set; } = null!; //İsim boş geçilmemesi sağlandı
+        public string Surname { get; set; } = null!;//Soyİsim boş geçilmemesi sağlandı
+        public int AppRoleId { get; set; } 
+
     }
 }
