@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion_PersonelGorevlendirme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion_PersonelGorevlendirmeSistemi.Application", "Onion_PersonelGorevlendirmeSistemi.Application\Onion_PersonelGorevlendirmeSistemi.Application.csproj", "{AD02E70B-2484-48B4-BD19-0E5DBB0D969E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion_PersonelGorevlendirmeSistemi.UI", "Onion_PersonelGorevlendirmeSistemi.UI\Onion_PersonelGorevlendirmeSistemi.UI.csproj", "{80305E62-646B-45BB-BF3D-E17AA6508F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AD02E70B-2484-48B4-BD19-0E5DBB0D969E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD02E70B-2484-48B4-BD19-0E5DBB0D969E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD02E70B-2484-48B4-BD19-0E5DBB0D969E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80305E62-646B-45BB-BF3D-E17AA6508F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80305E62-646B-45BB-BF3D-E17AA6508F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80305E62-646B-45BB-BF3D-E17AA6508F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80305E62-646B-45BB-BF3D-E17AA6508F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
