@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Onion_PersonelGorevlendirmeSistemi.Domain.Entites;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,12 @@ namespace Onion_PersonelGorevlendirmeSistemi.Persistance.Context
         {
             
         }
+
+        public DbSet<AppRole> AppRoles { get; set; }
+        public DbSet<AppTask> AppTasks { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Priority> Priorities { get; set; }
+        public DbSet<TaskReport> TaskReports { get; set; }
     }
 }
