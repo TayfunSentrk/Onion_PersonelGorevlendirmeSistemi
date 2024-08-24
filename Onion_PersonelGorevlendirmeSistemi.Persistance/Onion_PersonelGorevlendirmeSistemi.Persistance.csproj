@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Onion_PersonelGorevlendirmeSistemi.Application\Onion_PersonelGorevlendirmeSistemi.Application.csproj" />
+  </ItemGroup>
+
 </Project>
