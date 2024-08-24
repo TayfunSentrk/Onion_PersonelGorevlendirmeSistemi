@@ -15,5 +15,9 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
         public bool State { get; set; } //Okundu okunmadı anlamında
 
         public int AppUserId { get; set; } //Hangi kullancıya gitmiş
+
+        #region Navigation_Property
+        public AppUser? AppUser { get; set; } 
+        #endregion
     }
 }
