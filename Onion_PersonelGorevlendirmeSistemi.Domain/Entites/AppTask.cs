@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
 {
-    public class AppTask
+    public class AppTask:BaseEntity
     {
-        public int Id { get; set; }
+   
         public string Title { get; set; } = null!; //boş geçilmemesi sağlandı
 
         public string? Description { get; set; } //boş geçilebilir

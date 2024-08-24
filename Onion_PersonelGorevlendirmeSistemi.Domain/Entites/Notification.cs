@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
 {
-    public class Notification
+    public class Notification:BaseEntity
     {
-        public int Id { get; set; }
+ 
 
         public string Description { get; set; } = null!;//Açıklama boş geçilemez
 

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
 {
-    public class AppUser
+    public class AppUser:BaseEntity
     {
-        public int Id { get; set; }
+   
         public string UserName { get; set; } = null!; //UserName boş geçilmemesi sağlandı
 
         public string Password { get; set; } = null!;//Şifre boş geçilmemesi sağlandı

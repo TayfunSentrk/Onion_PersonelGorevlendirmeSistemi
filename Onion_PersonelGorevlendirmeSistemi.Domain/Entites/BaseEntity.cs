@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
 {
-    public class Priority:BaseEntity
+    public class BaseEntity
     {
-      
-        public string Definition { get; set; } = null!;//Açıklama boş geçilemez
+        public int Id { get; set; } //Tüm entity olan ortak Id için ortak bir BaseEntity Sınıfı Oluşturuldu
     }
 }
