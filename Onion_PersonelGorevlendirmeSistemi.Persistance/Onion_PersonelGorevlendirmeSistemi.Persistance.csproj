@@ -19,8 +19,4 @@
     <ProjectReference Include="..\Onion_PersonelGorevlendirmeSistemi.Application\Onion_PersonelGorevlendirmeSistemi.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Configurations\" />
-  </ItemGroup>
-
 </Project>
