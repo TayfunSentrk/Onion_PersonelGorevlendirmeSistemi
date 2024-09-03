@@ -12,7 +12,6 @@ namespace Onion_PersonelGorevlendirmeSistemi.UI.Controllers
         }
 
 
-
         public IActionResult Register()
         {
             return View();
