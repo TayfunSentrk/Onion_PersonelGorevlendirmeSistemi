@@ -4,13 +4,15 @@ namespace Onion_PersonelGorevlendirmeSistemi.UI.Controllers
 {
     public class AccountController : Controller
     {
-        
 
+        [HttpGet]
         public IActionResult Login()
         {
 
             return View();
         }
+
+
 
         public IActionResult Register()
         {

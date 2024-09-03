@@ -9,10 +9,20 @@
         <div class="text-center">
             <h5 class="text-center mt-5">Personel Yönetim Sistemi</h5>
             <p class="lead">
-                Giriş Ekranı
+                Kayıt Ekranı
             </p>
         </div>
-        <form asp-controller="Action" asp-action="Login" method="post" class="form-floatin mt-3">
+        <form class="form-floatin mt-3">
+
+            <div class="mb-3">
+                <label class="form-label">İsim</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Soyİsim</label>
+                <input type="text" class="form-control">
+            </div>
+
             <div class="mb-3">
                 <label  class="form-label">Kullanıcı Adı</label>
                 <input type="text" class="form-control" >
@@ -22,10 +32,14 @@
                 <label class="form-label">Şifre</label>
                 <input type="password" class="form-control">
             </div>
+            <div class="mb-3">
+                <label class="form-label">Şifre Tekrarı</label>
+                <input type="password" class="form-control">
+            </div>
 
             <div class="mb-3">
-               <button class="btn btn-primary btn-block" type="submit">Giriş Ekranı</button>
-                <a class="btn btn-outline-primary btn-block" >Üye Olma Ekranı</a>  
+                <button class="btn btn-primary btn-block" type="submit">Üye Ol</button>
+                <a class="btn btn-outline-primary btn-block" >Giriş Ekranı</a>  
             </div>
         </form>
     </div>
