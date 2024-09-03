@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Onion_PersonelGorevlendirmeSistemi.Application\Onion_PersonelGorevlendirmeSistemi.Application.csproj" />
+    <ProjectReference Include="..\Onion_PersonelGorevlendirmeSistemi.Persistance\Onion_PersonelGorevlendirmeSistemi.Persistance.csproj" />
+  </ItemGroup>
+
 </Project>
