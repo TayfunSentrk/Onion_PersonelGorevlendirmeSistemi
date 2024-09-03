@@ -11,7 +11,7 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
    
         public string Title { get; set; } = null!; //boş geçilmemesi sağlandı
 
-        public string? Description { get; set; } //boş geçilebilir
+        public string Description { get; set; } = null!;//boş geçilemez
 
         public int AppUserId { get; set; }
         public int PriorityId { get; set; }
