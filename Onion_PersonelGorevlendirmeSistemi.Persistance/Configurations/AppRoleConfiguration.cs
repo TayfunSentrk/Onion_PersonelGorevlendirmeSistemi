@@ -13,9 +13,9 @@ namespace Onion_PersonelGorevlendirmeSistemi.Persistance.Configurations
     {
         public void Configure(EntityTypeBuilder<AppRole> builder)
         {
-            builder.Property(x => x.Definition).IsRequired(); //
-            builder.Property(x => x.Definition).HasMaxLength(150);
-            builder.HasMany(b => b.AppUsers).WithOne(appUser => appUser.AppRole).HasForeignKey(appUser => appUser.AppRoleId);
+            builder.Property(x => x.Definition).IsRequired(); //Mutlaka doldurulması lazım
+            builder.Property(x => x.Definition).HasMaxLength(150);//maksimum 150 karakter olmalı lazım
+            builder.HasMany(b => b.AppUsers).WithOne(appUser => appUser.AppRole).HasForeignKey(appUser => appUser.AppRoleId);//AppRole ile AppUser arasında bire çok ilişki var
         }
     }
 }
