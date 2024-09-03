@@ -8,8 +8,7 @@ namespace Onion_PersonelGorevlendirmeSistemi.UI.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-
-            return View();
+                return View();
         }
 
 
