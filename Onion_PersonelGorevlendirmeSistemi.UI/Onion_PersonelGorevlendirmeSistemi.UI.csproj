@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Onion_PersonelGorevlendirmeSistemi.Application\Onion_PersonelGorevlendirmeSistemi.Application.csproj" />
+    <ProjectReference Include="..\Onion_PersonelGorevlendirmeSistemi.Persistance\Onion_PersonelGorevlendirmeSistemi.Persistance.csproj" />
+  </ItemGroup>
+
 </Project>

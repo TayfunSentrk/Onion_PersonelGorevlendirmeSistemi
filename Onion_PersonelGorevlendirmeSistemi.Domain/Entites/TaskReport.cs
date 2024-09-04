@@ -12,5 +12,9 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
         public string Definition { get; set; } = null!;
         public string Detail { get; set; } = null!;
         public int AppTaskId { get; set; } //Hangi göreve ait olduğu
+
+        #region Navigation_Property
+        public AppTask? AppTask { get; set; } 
+        #endregion
     }
 }
