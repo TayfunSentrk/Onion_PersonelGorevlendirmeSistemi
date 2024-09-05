@@ -18,7 +18,6 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
 
         #region Navigation_Property
         public AppRole? AppRole { get; set; } //Navigation Property ? işaretleyerek null olabilir  
-
         public List<AppTask>? AppTasks { get; set; }
 
         public List<Notification>? Notifications { get; set; }
