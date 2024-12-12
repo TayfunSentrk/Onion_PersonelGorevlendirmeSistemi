@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Onion_PersonelGorevlendirmeSistemi.Domain\Onion_PersonelGorevlendirmeSistemi.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

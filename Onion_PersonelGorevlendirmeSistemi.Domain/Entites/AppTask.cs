@@ -11,10 +11,17 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
    
         public string Title { get; set; } = null!; //boş geçilmemesi sağlandı
 
-        public string? Description { get; set; } //boş geçilebilir
+        public string Description { get; set; } = null!;//boş geçilemez
 
         public int AppUserId { get; set; }
         public int PriorityId { get; set; }
+
+        #region Navigation_Property
+        public Priority? Priority { get; set; }
+        public AppUser? AppUser { get; set; }
+
+        public List<TaskReport>? TaskReports { get; set; }
+        #endregion
         public bool State { get; set; }
     }
 }

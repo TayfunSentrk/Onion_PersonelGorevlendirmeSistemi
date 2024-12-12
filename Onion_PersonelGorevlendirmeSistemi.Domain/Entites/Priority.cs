@@ -10,5 +10,9 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
     {
       
         public string Definition { get; set; } = null!;//Açıklama boş geçilemez
+
+        #region Navigation_Property
+        public List<AppTask>? AppTasks { get; set; } 
+        #endregion
     }
 }

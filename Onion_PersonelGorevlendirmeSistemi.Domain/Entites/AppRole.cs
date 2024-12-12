@@ -10,5 +10,9 @@ namespace Onion_PersonelGorevlendirmeSistemi.Domain.Entites
     {
       
         public string Definition { get; set; } = null!;//Null olmaması için belirttim
+
+        #region Navigation_Property
+        public List<AppUser>? AppUsers { get; set; }  //Birden Fazla AppUser aynı role sahip olabilir
+        #endregion
     }
 }
